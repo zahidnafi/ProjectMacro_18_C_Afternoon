@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    justify-content: center;
+    /* Menggeser navigasi ke tengah */
+}
+
+.navbar-nav {
+    margin-top: 10px;
+    /* Memberikan jarak di atas navigasi */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    /* Memberikan jarak antara item navigasi */
+}
+
+/* Tambahkan CSS kustom Anda di sini */
+/* Menempatkan bagian "Tentang Kami" di tengah halaman */
+#about {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Menempatkan kotak artikel di tengah halaman */
+#articles {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Memberikan jarak antara setiap bagian */
+section {
+    margin-bottom: 70px;
+}
+
+#popular-articles {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.popular-article-card {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.circle-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mengubah warna tombol menjadi #6D758F */
+.btn {
+    background-color: #6D758F;
+    color: white;
+}
+
+/* Mengubah warna tombol ketika dihover */
+.btn:hover {
+    background-color: #6D758F;
+    color: white;
+}
+
+/* Mengubah warna latar belakang navbar menjadi #6D758F */
+.navbar {
+    background-color: #6D758F;
+}
+
+/* Mengubah warna teks (link) pada navbar menjadi putih */
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Mengubah warna teks tombol pada navbar menjadi putih */
+.navbar .btn {
+    color: white;
+}
+
+/* Mengubah warna latar belakang navbar menjadi #6D758F */
+.navbar.navbar-light {
+    background-color: #6D758F;
+}
+
+.image-article {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #6d758fce;
+}
+
+.border-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-description{
+    margin: 80px auto;
+    padding: 0 20px;
+}

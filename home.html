@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Tambahkan link Bootstrap CSS (versi terbaru) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Tambahkan CSS kustom Anda jika diperlukan -->
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><strong>GRD.IN</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" style="margin-right: 17vh;;">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="article.html">Article</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item" style="list-style: none;">
+                    <input type="text" class="form-control" placeholder="Search">
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-person"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                        <li><a class="dropdown-item" href="profile_user.html">Profil Pengguna</a></li>
+                        <li><a class="dropdown-item" href="change_pass.html">Ganti Password</a></li>
+                        <li><a class="dropdown-item" href="landing_page.html">Keluar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5" style="background-image: url(/asset/Gambar/hero.avif); height: 60vh;">
+        <div class="hero-content">
+            <div class="hero-description">
+                <h1>Selamat Datang di GRD.IN</h1>
+                <p>"Gerd akan sembuh dimulai dengan pikiran positif. Percayalah pada diri sendiri dan kemampuan untuk
+                    mengubah pola hidup sehat."</p>
+                <a href="home.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </header>
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">Tentang Kami</h2>
+                    <p class="text-center">Kami akan membantu masyarakat untuk merubah pola hidup lebih sehat yang
+                        sesuai kebutuhan setiap individunya dengan menyediakan beberapa tips, saran, dan solusi Mengenai
+                        GERD</p>
+                    <a href="about.html" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-articles" style="background-color: hsl(240, 1%, 95%);">
+        <div class="container">
+            <h2 class="text-center">Artikel Populer</h2>
+            <p>Berikut artiker mengenai GERD yang bisa anda baca.</p>
+            <div class="row justify-content-center">
+                <div class="col-12 mb-4">
+                    <div class="card popular-article-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="/asset/Gambar/Pentingnya Self Care bagi Penderita GERD.png"
+                                    class="card-img-top" alt="Gambar Artikel Populer 1">
+                            </div>
+                            <div class="col-6">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="padding-top: 30px;">Penyakit Asam Lambung (GERD) -
+                                        Penyebab, Risiko, dan Gejala
+                                    </h5>
+                                    <p class="card-text">Penyakit asam lambung atau GERD adalah penyakit yang sangat
+                                        umum terjadi pada pencernaan manusia. Kenali penyebab, gejala, dan cara
+                                        mengatasinya...</p>
+                                    <a href="article.html" class="btn btn-primary">Baca Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="latest-articles">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="latest-articles-title">Artikel Terbaru</h2>
+                </div>
+                <div class="col-md-3 article-nav">
+                    <a href="#">Terbaru</a> | <a href="#">Populer</a> | <a href="#">Artikel Lainnya</a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Artikel 1 (Artikel Terbaru) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/images (1).jfif" class="card-img-top" alt="Gambar Artikel Terbaru 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ternyata Berbeda! Ketahui Perbedaan Penyakit Maag dan GERD</h5>
+                            <p class="card-text">Maag dan GERD sering dikenal sebagai penyakit lambung yang sangat
+                                mengganggu aktivitas...</p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artikel 2 (Artikel Terbaru) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/Asam-Lambung-Mengganggu-Saat-Berpuasa-Begini-Cara-Mengatasinya.jpg"
+                            class="card-img-top" alt="Gambar Artikel Terbaru 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ketahui Perbedaan Penyakit Maag dan GERD</h5>
+                            <p class="card-text">Maag dan GERD sering dikenal sebagai penyakit lambung yang sangat
+                                mengganggu aktivitas. Rasa nyeri di...</p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artikel 3 (Artikel Terbaru) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/download.jfif" class="card-img-top" alt="Gambar Artikel Terbaru 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Penyebab Asam Lambung Pengidap GERD Naik</h5>
+                            <p class="card-text">Sebaiknya jangan abaikan kondisi asam pada mulut yang disertai nyeri
+                                pada dada hingga tenggorokan. Kondisi...</p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artikel 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/images (2).jfif" class="card-img-top" alt="Gambar Artikel 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaya Hidup dan Pengobatan Rumahan untuk Atasi GERD</h5>
+                            <p class="card-text">Perubahan gaya hidup dapat membantu mengurangi frekuensi refluks asam.
+                                Jangan lupa untuk selalu menjaga...</p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artikel 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/download (1).jfif" class="card-img-top" alt="Gambar Artikel 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Asam Lambung, Penyakit ‘Umum’ di Kalangan Kantoran</h5>
+                            <p class="card-text">Jika kamu disajikan sebuah pertanyaan tentang salah satu penyakit
+                                paling sering dialami oleh kaum pekerja dan....</p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artikel 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/asset/Gambar/gorengan.jfif" class="card-img-top" alt="Gambar Artikel 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Penyakit Asam Lambung (GERD) - Penyebab, Risiko, dan Gejala</h5>
+                            <p class="card-text">Gastroesophageal reflux disease atau GERD adalah istilah yang
+                                digunakan... </p>
+                            <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rekomendasi Dokter dan Para Ahli Section -->
+    <section id="experts" style="background-color: hsl(240, 1%, 95%);">
+        <div class="container">
+            <h2 class="text-center" style="padding-top: 20px;">Rekomendasi Dokter dan Para Ahli</h2>
+            <p class="text-center" style="margin-bottom: 30px;">Berikut rekomendasi dokter dan para ahli yang bisa anda
+                hubungi untuk berkonsultasi</p>
+            <div class="row">
+                <!-- Dokter 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/doctor 1.avif" class="circle-image" alt="Gambar Dokter 1">
+                    </div>
+                    <h5 class="text-center mt-3">Dr. fulan</h5>
+                    <p class="text-center">Dokter spesialis gastroenterologi</p>
+                </div>
+                <!-- Dokter 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/doctor 2.avif" class="circle-image" alt="Gambar Dokter 2">
+                    </div>
+                    <h5 class="text-center mt-3">Dr. Maria</h5>
+                    <p class="text-center">Dokter spesialis gastroenterologi</p>
+                </div>
+                <!-- Dokter 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/doctor 3.avif" class="circle-image" alt="Gambar Dokter 3">
+                    </div>
+                    <h5 class="text-center mt-3">Dr. Michael</h5>
+                    <p class="text-center">Dokter spesialis gastroenterologi</p>
+                </div>
+                <!-- Ahli 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/nutrionist1.webp" class="circle-image" alt="Gambar Ahli 1">
+                    </div>
+                    <h5 class="text-center mt-3">Monica</h5>
+                    <p class="text-center">Ahli Gizi</p>
+                </div>
+                <!-- Ahli 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/nutrionist2.webp" class="circle-image" alt="Gambar Ahli 2">
+                    </div>
+                    <h5 class="text-center mt-3">Dr. Jessica</h5>
+                    <p class="text-center">dokter spesialis gizi</p>
+                </div>
+                <!-- Ahli 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="circle-profile">
+                        <img src="/asset/Gambar/nutritionist3.jpeg" class="circle-image" alt="Gambar Ahli 3">
+                    </div>
+                    <h5 class="text-center mt-3">Dr. Zaenab</h5>
+                    <p class="text-center">dokter spesialis gizi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimoni Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="text-center">Testimoni</h2>
+            <div class="row">
+                <!-- Testimoni 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
+                                metus vitae libero eleifend bibendum vel sit amet ex. Proin non venenatis justo. Duis
+                                feugiat quam eget turpis pharetra scelerisque.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="card-title">Jane Doe</h5>
+                            <p class="card-subtitle">Pengguna Puas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Vivamus auctor ligula a metus euismod, ut semper velit ullamcorper.
+                                Etiam euismod orci eu lorem scelerisque, eu vehicula velit efficitur.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="card-title">John Smith</h5>
+                            <p class="card-subtitle">Pengguna Setia</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Aenean hendrerit in ligula sit amet ultrices. Fusce vehicula metus quis
+                                urna pharetra, eu laoreet est posuere.</p>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="card-title">Sarah Johnson</h5>
+                            <p class="card-subtitle">Pengguna Terpuji</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kritik dan Saran Section -->
+    <section id="feedback" style="background-color: hsl(240, 1%, 95%); padding: 10px;">
+        <div class="container">
+            <div class="row">
+                <!-- Judul dan Subjudul -->
+                <div class="col-md-6">
+                    <h2>Kritik dan Saran</h2>
+                    <p>Anda dapat meninggalkan Kritik maupun saran agar kami bisa berkembang lebih baik.</p>
+                </div>
+                <!-- Formulir Kritik dan Saran -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Beri Kritik dan Saran</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="nama">Nama</label>
+                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email"
+                                        placeholder="Masukkan Email Anda">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nomor-telepon">Nomor Telepon</label>
+                                    <input type="text" class="form-control" id="Nomor Telepon"
+                                        placeholder="Masukkan Telepon Anda">
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profesi">Profesi</label>
+                                    <input type="text" class="form-control" id="profesi"
+                                        placeholder="Masukkan Profesi Anda">
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label for="pesan">Pesan</label>
+                                    <textarea class="form-control" id="pesan" rows="4"
+                                        placeholder="Masukkan Kritik dan Saran Anda"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 GRD-IN Agency</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--script Bootstrap JS dan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

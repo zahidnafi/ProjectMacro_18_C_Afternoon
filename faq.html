@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <!-- Tambahkan link Bootstrap CSS (versi terbaru) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Tambahkan CSS kustom Anda jika diperlukan -->
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><strong>GRD.IN</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" style="margin-right: 17vh;">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="article.html">Article</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item" style="list-style: none;">
+                <input type="text" class="form-control" placeholder="Search">
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="bi bi-person"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                    <li><a class="dropdown-item" href="profile_user.html">Profil Pengguna</a></li>
+                    <li><a class="dropdown-item" href="change_pass.html">Ganti Password</a></li>
+                    <li><a class="dropdown-item" href="landing_page.html">Keluar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <div class="container mt-5" style="height: 60vh;">
+        <h1 class="text-center mb-5">Pertanyaan yang Sering Diajukan (FAQ)</h1>
+        <div class="accordion" id="faqAccordion">
+            <!-- Pertanyaan 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="question1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answer1">
+                        Apakah GERD Bisa Disembuhkan?
+                    </button>
+                </h2>
+                <div id="answer1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Memang penyakit ini bisa sembuh tapi juga bisa kambuh. Intinya adalah kalau bisa mengendalikan
+                        faktor risiko setelah diobati, itu bisa sembuh total.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pertanyaan 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="question2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answer2">
+                        Apa saja pemicu utama penyakit GERD ?
+                    </button>
+                </h2>
+                <div id="answer2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Penyebab GERD adalah akibat melemahnya sfingter esofagus atau otot-otot pembatas antara
+                        kerongkongan dan lambung sehingga menyebabkan refluks (aliran balik) atau naiknya asam lambung
+                        ke saluran esofagus (kerongkongan).
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pertanyaan 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="question3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answer3">
+                        Kapan diperlukan endoskopi bagi pengidap GERD?
+                    </button>
+                </h2>
+                <div id="answer3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        jika pasien mengalami gejala yang tidak khas untuk GERD atau kondisinya sudah memprihatinkan,
+                        misalnya: Rasa sakit atau mengalami kesulitan saat menelan. Penurunan berat badan yang tidak
+                        disengaja.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="bg text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 GRD-IN Agency</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tambahkan script Bootstrap JS dan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

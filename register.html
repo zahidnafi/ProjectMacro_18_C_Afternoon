@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Tambahkan link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tambahkan link ke file CSS terpisah -->
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form class="border-form">
+                    <div class="form-group">
+                        <h2 class="mb-4">Register</h2>
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Masukkan username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Masukkan password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Konfirmasi Password</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="Konfirmasi password">
+                    </div>
+                    <div class="form-group">
+                        <label for="place-of-birth">Tempat Lahir</label>
+                        <input type="text" class="form-control" id="place-of-birth" placeholder="Tempat lahir">
+                    </div>
+                    <div class="form-group">
+                        <label for="date-of-birth">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="date-of-birth">
+                    </div>
+                    <div class="form-group">
+                        <label for="weight">Berat Badan (kg)</label>
+                        <input type="number" class="form-control" id="weight" placeholder="Berat badan">
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Tinggi Badan (cm)</label>
+                        <input type="number" class="form-control" id="height" placeholder="Tinggi badan">
+                    </div>
+                    <div class="form-group">
+                        <label for="complaint">Keluhan</label>
+                        <textarea class="form-control" id="complaint" placeholder="Keluhan"></textarea>
+                    </div>
+                    <a href="login.html" class="btn btn-primary">Daftar</a>
+                </form>
+                <p class="mt-3">Sudah punya akun? <a href="login.html">Login disini</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
